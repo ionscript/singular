@@ -1,0 +1,20 @@
+{
+  "name": "singular",
+  "homepage": "https://bitbucket.org/ionscript/singular",
+  "authors": [
+    {
+      "name": "IoN",
+      "email": "ionscript.inc@gmail.com"
+    }
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules"
+  ],
+  "devDependencies": {
+    "angular": "~1.3.14",
+    "angular-route": "~1.3.14"
+  }
+}

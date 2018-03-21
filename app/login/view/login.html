@@ -1,0 +1,39 @@
+<div class="container-fluid login">
+    <div class="main-login col-md-3 col-md-offset-4">
+        <div class="logo">SINGULAR <i class="fa fa-magic"></i>APP</div>
+        <div class="well">
+            <form class="form-login" name="form" novalidate>
+                <fieldset>
+                    <h3>Log in</h3>
+
+                    <p>
+                        Please enter your name and password to log in.
+                    </p>
+                    <alert ng-hide="!login.error" close="login.errorClose()" ng-show="login.error" type="danger">
+                        {{ ::login.error }}
+                    </alert>
+                    <div class="form-group input-group">
+                        <div class="input-group-addon"><i class="fa fa-user fa-fw"></i></div>
+                        <input type="text" name="username" class="form-control" placeholder="Username"
+                               ng-model="login.user.username" required autofocus>
+                    </div>
+                    <div class="form-group input-group">
+                        <div class="input-group-addon"><i class="fa fa-lock fa-fw"></i></div>
+                        <input type="password" name="password" class="form-control" placeholder="Password"
+                               ng-model="login.user.password" required>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-lg btn-primary btn-block btn-login" type="button"
+                                ng-disabled="form.$invalid" ng-click="login.submit()">
+                            Login <i class="fa fa-sign-in"></i>
+                        </button>
+                    </div>
+                    <p></p>
+                </fieldset>
+            </form>
+        </div>
+        <div class="copyright">
+            Copyright &copy; 2017 IoNScript
+        </div>
+    </div>
+</div>
