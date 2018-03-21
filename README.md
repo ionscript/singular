@@ -1,9 +1,9 @@
 # Singular
 
-##[REST](http://en.wikipedia.org/wiki/Representational_state_transfer) Web Application
+## [REST](http://en.wikipedia.org/wiki/Representational_state_transfer) Web Application
 
-####Architecture is [SOA](https://en.wikipedia.org/wiki/Service-oriented_architecture)
-####Based on [AngularJS](http://angularjs.org)
+#### Architecture is [SOA](https://en.wikipedia.org/wiki/Service-oriented_architecture)
+#### Based on [AngularJS](http://angularjs.org)
 
 ## Application Structure
 
